@@ -1,157 +1,340 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>
+        <title>Vasile Staver CV</title>
 
-        </style>
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body>
-        <section id="header">
-            <div>
-                <div>
-                    <img src="" alt=""/>
+    <body class="py-12 px-4" style="max-width: 850px; margin: 0 auto; -webkit-print-color-adjust: exact;">
+        <section id="header" class="mb-8">
+            <div class="grid grid-cols-12 gap-4 content-center items-center">
+                <div class="col-span-2">
+                    <img class="w-28" src="./imgs/Profile Avatar.png" alt="Vasile Staver Avatar"/>
                 </div>
-                <div>
-                    <span>
+                <div class="col-span-4">
+                    <div class="text-xl font-semibold">
                         Vasile Staver
-                    </span>
-                    <span>
+                    </div>
+                    <div class="text-sm font-medium text-slate-500">
                         Product Designer
-                    </span>
+                    </div>
                 </div>
-                <div>
-                    <span>
+                <div class="col-span-3">
+                    <div class="text-xs uppercase font-bold">
                         Email
-                    </span>
-                    <span>
+                    </div>
+                    <div class="text-sm font-medium text-blue-600">
                         <a href="mailto:vasilestaver@icloud.com">vasilestaver@icloud.com</a>
-                    </span>
+                    </div>
                 </div>
-                <div>
-                    <span>
+                <div class="col-span-3">
+                    <div class="text-xs uppercase font-bold">
                         Phone number
-                    </span>
-                    <span>
+                    </div>
+                    <div class="text-sm font-medium text-blue-600">
                         <a href="tel:+37379003911">+373 79 00 39 11</a>
-                    </span>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="experience">
-            <ul>
-                <li>
-                    <img src="" alt=""/>
-                    <span>5+ years of experience</span>
+            <ul class="grid grid-flow-row auto-rows-max gap-2 text-sm mb-2">
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">5+ years of experience</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Ability to prioritize tasks and manage time effectively</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Ability to prioritize tasks and manage time effectively</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Proficiency in Figma, Sketch Adobe CC, and other visual design tools</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Proficiency in Figma, Sketch Adobe CC, and other visual design tools</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Experience in FinTech industry, Data Visualization and Analysis</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Experience in FinTech industry, Data Visualization and Analysis</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Experience in an Agile environment, Lean UX Framework</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Experience in an Agile environment, Lean UX Framework</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Experience designing cross-platform (responsive websites, mobile apps, and/or living room experiences)</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Experience designing cross-platform (responsive websites, mobile apps, and/or living room experiences)</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Experience designing for accessibility and international audiences</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Experience designing for accessibility and international audiences</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Excellent writing and speaking English skills</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Excellent writing and speaking English skills</div>
                 </li>
             </ul>
 
-            <h4>Bonus</h4>
-            <ul>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Advanced knowledge of HTML/CSS and Basic knowledge of JavaScript and other programming languages and frameworks</span>
+            <div class="text-sm font-semibold mb-2">Bonus</div>
+            <ul class="grid grid-flow-row auto-rows-max gap-2 text-sm mb-2">
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Advanced knowledge of HTML/CSS and basic knowledge of JavaScript</div>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <span>Basic Animation / Motion skills (After Effects)</span>
+                <li class="flex">
+                    <img src="./imgs/check.svg" alt="checkmark"/>
+                    <div class="pl-2 text-base">Basic Animation / Motion skills (After Effects)</div>
                 </li>
             </ul>
         </section>
 
         <section id="about">
-            <p>
+            <p class="py-5 text-base text-slate-500">
                 Worked for small startups and small companies willing to develop Minimum Viable Products in a short period of time, in order to be released faster on the market so we can collect data and user feedback. Being the single Designer in several teams, I’ve become shortly a Design Generalist and took the Lean UX Framework as my main Design Process, we could make the MVPs faster by iterating until we decided with stakeholders the design solution that should be implemented.
             </p>
         </section>
 
         <section id="skills">
-            <div>
-                <div>Branding</div>
-                <div>Front-end Code</div>
-                <div>User Research</div>
-                <div>Interaction Design</div>
-                <div>Visual Design</div>
-                <div>Prototyping</div>
+            <div class="grid grid-cols-6 justify-center content-center">
+                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-400">Branding</div>
+                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-500">Front-end Code</div>
+                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-600">User Research</div>
+                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-700">Interaction Design</div>
+                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-800">Visual Design</div>
+                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-900">Prototyping</div>
+            </div>
+            <div class="mt-1 flex text-sm text-slate-500 justify-between">
+                <div class="">Less skilled</div>
+                <div class="">More skilled</div>
+            </div>
+            <!-- <div class="text-center mt-2 text-xs text-slate-500 italic">Skills represented by intensity of knowledge and expertise from LTR</div> -->
+        </section>
+
+        <section id="motto" class="mt-16">
+            <div class="text-lg font-semibold text-center">
+                “Being a Design Generalist has made me a more confident and adaptable designer—one who’s able to effectively solve problems in a short period of time.”
             </div>
         </section>
 
-        <section id="motto">
-            <blockquote>
-                “Being a Design Generalist has made me a more confident and adaptable designer—one who’s able to effectively solve problems in a short period of time.”
-            </blockquote>
-        </section>
-
-        <section id="work_history">
-            <h2>Work history</h2>
-            <div>
-                <div>
+        <section id="work_history" class="mt-16">
+            <div class="text-xl font-semibold mb-6">Work history</div>
+            <div class="">
+                <div class="border-l-4 border-slate-200 py-3 px-6 mb-8">
                     <div>
-                        <h3>Big Data Federation</h3>
-                        <span>Chisinau, Republic of Moldova</span>
+                        <div class="text-lg font-semibold">Big Data Federation</div>
+                        <div class="text-sm font-medium text-slate-500">Chisinau, Republic of Moldova</div>
                     </div>
                     <div>
-                        <div>
-                            <span>Senior Product Designer</span>
-                            <span>Mar 2021 - Present</span>
+                        <div class="mt-3">
+                            <div class="text-base font-medium">Senior Product Designer</div>
+                            <div class="text-sm font-medium text-slate-500">Mar 2021 - Present</div>
                         </div>
-                        <div>
-                            <p>
+                        <div class="mt-1">
+                            <p class="text-base text-slate-500">
                                 Design of several products:
-                                <ul>
+                                <ul class="text-base text-slate-500 list-disc list-inside">
                                     <li>Research Platform</li>
-                                    <ul>
+                                    <ul class="list-disc list-inside pl-4">
                                         <li>Responsive Design</li>
                                         <li>Data Vizualization and Smart Tables</li>
                                         <li>User Management</li>
                                     </ul>
                                     <li>UBCB (Exchange-Traded Fund - ETF)</li>
-                                    <ul>
-                                        <li>Responsive Website <a href="https://ubc-b.com">https://ubc-b.com</a></li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Responsive Website <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://ubc-b.com">https://ubc-b.com</a></li>
                                         <li>Data Visualization</li>
                                         <li>Marketing Materials, Compliance Materials and Print Materials</li>
                                     </ul>
                                     <li>Ultra Blue Capital (an SEC-registered asset management firm)</li>
-                                    <ul>
-                                        <li>Responsive Website <a href="https://www.ultrabluecap.com">https://www.ultrabluecap.com</a></li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Responsive Website <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://www.ultrabluecap.com">https://www.ultrabluecap.com</a></li>
                                         <li>Insights Publishing and Sharing, Marketing Materials</li>
                                         <li>Cross-platform Digital Signage for TV and Web Platforms</li>
                                     </ul>
-                                    <li>Brand and others</li>
-                                    <ul>
-                                        <li>Re-design Responsive Website <a href="https://www.bigdatafed.com/">https://www.bigdatafed.com/</a></li>
+                                    <li>Company’s and others</li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Re-design Responsive Website <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://www.bigdatafed.com/">https://www.bigdatafed.com/</a></li>
                                         <li>Insights Publishing and Sharing, Marketing Materials and Print Materials</li>
                                     </ul>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mt-3">
+                            <div class="text-base font-medium">Product Designer</div>
+                            <div class="text-sm font-medium text-slate-500">Mar 2019 - Jan 2020</div>
+                        </div>
+                        <div class="mt-1">
+                            <p class="text-base text-slate-500">
+                                <ul class="text-base text-slate-500 list-disc list-inside">
+                                    <li>Data Platform</li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Data Explorer, Health Management of Data Sources</li>
+                                        <li>Reporting of Issues</li>
+                                        <li>Ecosystem Visualization</li>
+                                        <li>Dynamic Charts Management</li>
+                                    </ul>
+                                    <li>Company’s and others</li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Responsive Website <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://www.bigdatafed.com/">https://www.bigdatafed.com/</a></li>
+                                        <li>Insights Publishing and Sharing, Marketing Materials and Print Materials</li>
+                                    </ul>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-l-4 border-slate-200 py-3 px-6 mb-8">
+                    <div>
+                        <div class="text-lg font-semibold">Readcast</div>
+                        <div class="text-sm font-medium text-slate-500">Chisinau, Republic of Moldova</div>
+                    </div>
+                    <div>
+                        <div class="mt-3">
+                            <div class="text-base font-medium">Project Manager & Senior Product Designer</div>
+                            <div class="text-sm font-medium text-slate-500">Sep 2020 - Apr 2021</div>
+                        </div>
+                        <div class="mt-1">
+                            <p class="text-base text-justify text-slate-500">
+                                Responsible for managing several projects and a team of 4 engineers using Agile methodology. Setting up Jira for task management, delivery management, performance management, backloging, effort tracking.
+                                Work on Design of Hybrid Mobile Apps and UI Developement using technologies like ReactNative and Ionic Framework
+                                <ul class="text-base text-slate-500 list-disc list-inside mt-4">
+                                    <li>Cross-platform Design & UI Developement of the mobile banking application 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://apps.apple.com/us/app/ecb-telebank/id1584316543?l=ru">Telebank iOS</a>
+                                         | 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="">Telebank Android</a>
+                                    </li>
+                                    <li>Maintain and design new features of the cross-platform mobile application, for the largest commercial bank in Moldova 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://apps.apple.com/us/app/maibusiness/id1482892395">MAIBusiness iOS</a>
+                                         | 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="">MAIBusiness Android</a>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mt-3">
+                            <div class="text-base font-medium">Senior Product Designer</div>
+                            <div class="text-sm font-medium text-slate-500">Mar 2020 - Sep 2020</div>
+                        </div>
+                        <div class="mt-1">
+                            <p class="text-base text-justify text-slate-500">
+                                <ul class="text-base text-slate-500 list-disc list-inside mt-1">
+                                    <li>Cross-platform re-design of the mobile banking application, for the largest commercial bank in Moldova 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://apps.apple.com/us/app/ecb-telebank/id1584316543?l=ru">Telebank iOS</a>
+                                         | 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="">Telebank Android</a>
+                                    </li>
+                                    <li>Queue Management System (iQ-QMS)</li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Re-design of Management Portal</li>
+                                        <li>Re-design cross-platform web-application for ticket calling and marketing materials</li>
+                                        <li>Re-design Terminal Application for issuing tickets</li>
+                                        <li>Re-design of Operator’s Desk Platform</li>
+                                        <li>Design of cross-platform mobile application for users that want to schedule a visit to the branch</li>
+                                    </ul>
+                                    <li>Design and coding of the company’s website 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="http://readcast.net">http://readcast.net</a>
+                                    </li>
+                                    <li>Design solutions for user experience problems of Net Promoter Score (NPS) System</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-l-4 border-slate-200 py-3 px-6 mb-8">
+                    <div>
+                        <div class="text-lg font-semibold">Snowball Technologies</div>
+                        <div class="text-sm font-medium text-slate-500">Remote - Contract</div>
+                    </div>
+                    <div>
+                        <div class="mt-3">
+                            <div class="text-base font-medium">Senior Product Designer</div>
+                            <div class="text-sm font-medium text-slate-500">Feb 2020 - Jun 2020</div>
+                        </div>
+                        <div class="mt-1">
+                            <p class="text-base text-justify text-slate-500">
+                                Design of Snowball Platform a startup that was using Twitter API to parse tweets and use them to gather sentiment analysis for the Stock Market. 
+                                <ul class="text-base text-slate-500 list-disc list-inside mt-4">
+                                    <li>Data Visualization</li>
+                                    <li>Design of Identity (Logo, Social Media, Website)</li>
+                                    <li>Stripe Subscription Payment</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-l-4 border-slate-200 py-3 px-6 mb-8">
+                    <div>
+                        <div class="text-lg font-semibold">Freelance</div>
+                        <div class="text-sm font-medium text-slate-500">Remote</div>
+                    </div>
+                    <div>
+                        <div class="mt-3">
+                            <div class="text-base font-medium">Product Designer</div>
+                            <div class="text-sm font-medium text-slate-500">Oct 2018 - Mar 2020</div>
+                        </div>
+                        <div class="mt-1">
+                            <p class="text-base text-justify text-slate-500">
+                                Work with multiple companies and clients on the local and U.S. Market.
+                                <ul class="text-base text-slate-500 list-disc list-inside mt-4">
+                                    <li>Maintain the design and design solutions for new features of OpenBox platform, using Blockchain technology to enable nonprofits to bring more transparency into their fundraising process</li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Web Platform</li>
+                                        <ul class="list-disc list-inside pl-4">
+                                            <li>Fundraising Campaign Data Visualization</li>
+                                            <li>Adding Amazon Products to Fundraising Campaigns</li>
+                                        </ul>
+                                        <li>Management Platform for Nonprofit</li>
+                                        <ul class="list-disc list-inside pl-4">
+                                            <li>Amazon Products Integration</li>
+                                            <li>Stripe Payment Integration and Management</li>
+                                            <li>Fundraising Campaign Management</li>
+                                        </ul>
+                                    </ul>
+                                    <li>
+                                        Design for the top-level Magento eCommerce 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://unirgy.com">Unirgy</a>
+                                         with over 8,500+ clients worldwide and more than 10B$+ in transactions
+                                    </li>
+                                    <ul class="list-disc list-inside pl-4">
+                                        <li>Design of the new Company’s Website and Coding using Technologies like (HTML/CSS/JS)</li>
+                                        <li>Subscription Management Platform</li>
+                                        <li>License Management Platform</li>
+                                    </ul>
+                                    <li>iWear - Product Inventory and Customers Management System (Hebrew language - RTL)</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-l-4 border-slate-200 py-3 px-6 mb-8">
+                    <div>
+                        <div class="text-lg font-semibold">Mobiblocks LLC</div>
+                        <div class="text-sm font-medium text-slate-500">Chisinau, Republic of Moldova</div>
+                    </div>
+                    <div>
+                        <div class="mt-3">
+                            <div class="text-base font-medium">UX/UI Designer</div>
+                            <div class="text-sm font-medium text-slate-500">Oct 2017 - Oct 2018</div>
+                        </div>
+                        <div class="mt-1">
+                            <p class="text-base text-justify text-slate-500">
+                                Work on several projects, was responsible for designing, prototyping and implementing the user interface into web applications by coding them using web technologies like (HTML, SCSS, Blazor, ReactJS, KnockoutJS)
+                                <ul class="text-base text-slate-500 list-disc list-inside mt-4">
+                                    <li>Skippables - Create Video Ads and Publish Mobile Adverstising Campaigns on iOS and Android apps with 
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://www.skippables.com">Skippables</a>
+                                    </li>
+                                    <li>Design and code new features
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://www.app.net">App.net</a>
+                                    </li>
+                                    <li>Design and prototype cross-platform mobile application
+                                        <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://apps.apple.com/us/app/xmap/id1459979402">MyArea iOS</a>
+                                         | 
+                                         <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="#">MyArea Android</a>
+                                    </li>
                                 </ul>
                             </p>
                         </div>
@@ -160,35 +343,67 @@
             </div>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
+        <section id="education" class="mt-16">
+            <div class="text-xl font-semibold mb-6">Education</div>
             <div>
-                <div>
-                    <h3>Bachelor Degree - Cybernetics, Informatics and Statistical Economics</h3>
-                    <span>2017 - 2021, Academy of Economic Studies of Moldova</span>
+                <div class="mb-6">
+                    <div class="text-base font-medium">Bachelor Degree - Cybernetics, Informatics and Statistical Economics</div>
+                    <div class="text-sm font-medium text-slate-500">2017 - 2021, Academy of Economic Studies of Moldova</div>
                 </div>
                 <div>
-                    <h3>Associate Degree - Software Engineering</h3>
-                    <span>2013 - 2017, Centre of Excelence in Economy and Finance</span>
+                    <div class="text-base font-medium">Associate Degree - Software Engineering</div>
+                    <div class="text-sm font-medium text-slate-500">2013 - 2017, Centre of Excelence in Economy and Finance</div>
                 </div>
             </div>
         </section>
 
-        <section id="courses">
-            <h2>Courses</h2>
-            <div>
+        <section id="courses" class="mt-16">
+            <div class="text-xl font-semibold mb-6">Courses</div>
+            <div class="grid grid-cols-2 gap-4">
                 <div>
+                    <a href="https://coursera.org/share/3445ff88840f05611f4901b95159c4df" target="_blank">
+                        <div class="group relative transition-all">
+                            <div class="relative">
+                                <div id="overlay" class="invisible flex z-10 group-hover:visible bg-black h-full w-full absolute opacity-50 transition-all justify-center content-center items-center text-sm text-white">
+                                    Go to course...
+                                </div>
+                                <div class="bg-slate-100 h-48 mb-4 overflow-hidden z-0">
+                                    <img class="object-contain h-full mx-auto py-2 group-hover:scale-125 transition-all" src="./imgs/Coursera YGLGGK9D44MG.jpg" alt="Foundations of User Experience (UX) Design by Google Certificate"/>
+                                </div>
+                            </div>
+                            <div class="text-base font-medium">Foundations of User Experience (UX) Design</div>
+                        </div>
+                    </a>
                     <div>
-                        <img src="" alt=""/>
+                        <div class="text-sm font-medium text-slate-500">by <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://coursera.org/share/3445ff88840f05611f4901b95159c4df">Google</a></div>
+                        <div class="text-sm font-medium text-slate-500">May 2022</div>
                     </div>
+                </div>
+                <div>
+                    <a href="https://www.interaction-design.org/courses/become-a-ux-designer-from-scratch" target="_blank">
+                        <div class="group relative transition-all">
+                            <div class="relative">
+                                <div id="overlay" class="invisible flex z-10 group-hover:visible bg-black h-full w-full absolute opacity-50 transition-all justify-center content-center items-center text-sm text-white">
+                                    Go to course...
+                                </div>
+                                <div class="bg-slate-100 h-48 mb-4 overflow-hidden z-0">
+                                    <img class="object-contain h-full mx-auto py-2 group-hover:scale-125 transition-all" src="./imgs/1602114488886.jpeg" alt="Interaction Design Foundation Certificate"/>
+                                </div>
+                            </div>
+                            <div class="text-base font-medium">Become a UX Designer from Scratch</div>
+                        </div>
+                    </a>
                     <div>
-                        <h3>Foundations of User Experience (UX) Design</h3>
-                        <span>by <a href="https://coursera.org/share/3445ff88840f05611f4901b95159c4df">Google</a></span>
-                        <span>May 2022</span>
+                        <div class="text-sm font-medium text-slate-500">by <a class="text-blue-600 font-medium after:content-['_↗']" target="_blank" href="https://www.interaction-design.org/courses/become-a-ux-designer-from-scratch">Interaction Design Foundation</a></div>
+                        <div class="text-sm font-medium text-slate-500">Aug 2018 - Oct 2018</div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
+        <footer class="mt-24 text-center">
+            <div class="text-xs text-slate-500">Design and coded with ❤️ by Vasile Staver</div>
+            <a class="text-xs text-blue-600 after:content-['_↗']" target="_blank" href="https://kinguritorisu.github.io/www/">Check out the resume on website</a>
+        </footer>
     </body>
 </html>
