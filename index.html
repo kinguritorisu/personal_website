@@ -8,8 +8,8 @@
     </head>
     <body class="py-12 px-4" style="max-width: 850px; margin: 0 auto; -webkit-print-color-adjust: exact;">
         <section id="header" class="mb-8">
-            <div class="grid grid-cols-12 gap-4 content-center items-center">
-                <div class="col-span-2">
+            <div class="grid grid-cols-6 md:grid-cols-12 md:grid-flow-row gap-4 content-center items-center">
+                <div class="col-auto md:col-span-2">
                     <img class="w-28" src="./imgs/Profile Avatar.png" alt="Vasile Staver Avatar"/>
                 </div>
                 <div class="col-span-4">
@@ -95,18 +95,41 @@
         </section>
 
         <section id="skills">
-            <div class="grid grid-cols-6 justify-center content-center">
-                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-400">Branding</div>
-                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-500">Front-end Code</div>
-                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-600">User Research</div>
-                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-700">Interaction Design</div>
-                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-800">Visual Design</div>
-                <div class="flex h-28 text-base font-semibold text-center text-white justify-center items-center px-4 bg-blue-900">Prototyping</div>
+            <div class="hidden md:grid">
+                <div class="grid grid-cols-3 md:grid-cols-6 justify-center content-center">
+                    <div class="flex h-28 text-xs md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-400">Branding</div>
+                    <div class="flex h-28 text-xs md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-500">Front-end Code</div>
+                    <div class="flex h-28 text-xs md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-600">User Research</div>
+                    <div class="flex h-28 text-xs md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-700">Interaction Design</div>
+                    <div class="flex h-28 text-xs md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-800">Visual Design</div>
+                    <div class="flex h-28 text-xs md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-900">Prototyping</div>
+                </div>
+                <div class="mt-1 flex text-sm text-slate-500 justify-between">
+                    <div class="">Less skilled</div>
+                    <div class="">More skilled</div>
+                </div>
             </div>
-            <div class="mt-1 flex text-sm text-slate-500 justify-between">
-                <div class="">Less skilled</div>
-                <div class="">More skilled</div>
+            
+            <div class="grid md:hidden">
+                <div class="my-1 flex text-sm text-slate-500 justify-between">
+                    <div class="">Less skilled</div>
+                </div>
+                <div class="grid grid-cols-3 justify-center content-center">
+                    <div class="flex h-28 text-xs break-all md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-400">Branding</div>
+                    <div class="flex h-28 text-xs break-all md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-500">Front-end Code</div>
+                    <div class="flex h-28 text-xs break-all md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-600">User Research</div>
+                </div>
+                
+                <div class="grid grid-cols-3 justify-center content-center">
+                    <div class="flex h-28 text-xs break-all md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-700">Interaction Design</div>
+                    <div class="flex h-28 text-xs break-all md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-800">Visual Design</div>
+                    <div class="flex h-28 text-xs break-all md:text-base font-semibold text-center text-white justify-center items-center px-2 md:px-4 bg-blue-900">Prototyping</div>
+                </div>
+                <div class="mt-1 flex text-sm text-slate-500 justify-end">
+                    <div class="">More skilled</div>
+                </div>
             </div>
+            
             <!-- <div class="text-center mt-2 text-xs text-slate-500 italic">Skills represented by intensity of knowledge and expertise from LTR</div> -->
         </section>
 
@@ -359,7 +382,7 @@
 
         <section id="courses" class="mt-16">
             <div class="text-xl font-semibold mb-6">Courses</div>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 grid-flow-row gap-4">
                 <div>
                     <a href="https://coursera.org/share/3445ff88840f05611f4901b95159c4df" target="_blank">
                         <div class="group relative transition-all">
